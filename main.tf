@@ -1,4 +1,4 @@
-resource "azurerm_resource_group" "example" {
-  name     = "testGroup"
+resource "azurerm_resource_group" "rg1" {
+  name     = "terraform-rg1"
   location = "East US"
 }
